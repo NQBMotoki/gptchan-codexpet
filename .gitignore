@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+.venv/
+dist/
+*.pyc
+# Local source inputs; the published copies live under output/gpt-chan/.
+/pet.json
+/spritesheet.webp
