@@ -4,6 +4,8 @@
 
 原形象作者：**[ZipzipPipe（B站 UID 4168597）](https://space.bilibili.com/4168597)**。本项目为非官方 AI 辅助二创，来源与权利说明见 [NOTICE.md](NOTICE.md)。
 
+[![验证与打包](https://github.com/NQBMotoki/gptchan-codexpet/actions/workflows/package.yml/badge.svg)](https://github.com/NQBMotoki/gptchan-codexpet/actions/workflows/package.yml) · [下载最新 Release](https://github.com/NQBMotoki/gptchan-codexpet/releases/latest)
+
 <table>
 <tr>
 <td align="center"><img src="assets/readme/animations/idle.gif" width="192" alt="GPT酱待机"><br>待机</td>
@@ -38,7 +40,11 @@ bash scripts/install.sh
 
 ### 手动安装
 
-从本仓库的 **Code → Download ZIP** 下载源码并解压。创建上述安装目录，把 `output/gpt-chan/` 中的 `pet.json` 和 `spritesheet.webp` 复制进去。已有同名文件时请先备份。
+从 [最新 Release](https://github.com/NQBMotoki/gptchan-codexpet/releases/latest) 下载 `gptchan-codexpet.zip` 并解压。创建上述安装目录，把解压后 `gpt-chan/` 中的 `pet.json` 和 `spritesheet.webp` 复制进去。已有同名文件时请先备份，来源声明 `NOTICE.md` 请保留。
+
+Release 附带 `SHA256SUMS.txt`。macOS 可用 `shasum -a 256 gptchan-codexpet.zip`，Windows 可用 `Get-FileHash .\gptchan-codexpet.zip -Algorithm SHA256`，将结果与校验文件比较。
+
+也可用 **Code → Download ZIP** 下载源码；对应安装文件在 `output/gpt-chan/`。
 
 重新启动 Codex，在 **设置 → Pets** 中刷新列表并选择 **GPT酱**。仓库配置并不会自动安装到你的电脑。
 
@@ -82,7 +88,9 @@ python -m pip install -r requirements.txt
 python scripts/build.py
 ```
 
-脚本检查配置、尺寸、透明度、有效帧和空白格，生成 PNG／GIF 预览，并输出 `dist/gptchan-codexpet.zip`。解压后得到 `gpt-chan/pet.json`、`gpt-chan/spritesheet.webp` 与来源声明。GitHub Actions 也会执行相同检查并提供 ZIP artifact；当前未发布 Release。
+脚本检查配置、尺寸、透明度、有效帧和空白格，生成 PNG／GIF 预览，并输出 `dist/gptchan-codexpet.zip` 和 `dist/SHA256SUMS.txt`。解压后得到 `gpt-chan/pet.json`、`gpt-chan/spritesheet.webp` 与来源声明。图集保留原始像素；GIF 使用浅色背景供文档展示。
+
+运行 `python scripts/verify_install.py` 可在临时目录验证安装、同名备份、含空格路径及其他宠物保留。GitHub Actions 在 Linux 和 Windows 上执行验证，并提供 ZIP artifact；推送 `v*` 标签时，待两平台检查通过后自动发布 Release。
 
 ## 项目结构
 
