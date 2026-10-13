@@ -1,4 +1,12 @@
 $ErrorActionPreference = 'Stop'
+function Get-Sha256([string] $Path) {
+    $algorithm = [System.Security.Cryptography.SHA256]::Create()
+    try {
+        return [BitConverter]::ToString($algorithm.ComputeHash([System.IO.File]::ReadAllBytes($Path)))
+    } finally {
+        $algorithm.Dispose()
+    }
+}
 $repoDir = Split-Path -Parent $PSScriptRoot
 $sourceDir = Join-Path $repoDir 'output/gpt-chan'
 $codexDir = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path ([Environment]::GetFolderPath('UserProfile')) '.codex' }
@@ -22,7 +30,7 @@ foreach ($filename in @('pet.json', 'spritesheet.webp')) {
     $source = Join-Path $sourceDir $filename
     $target = Join-Path $targetDir $filename
     Copy-Item -LiteralPath $source -Destination $target -Force
-    if ((Get-FileHash -LiteralPath $source).Hash -ne (Get-FileHash -LiteralPath $target).Hash) {
+    if ((Get-Sha256 $source) -ne (Get-Sha256 $target)) {
         throw "Verification failed: $filename"
     }
 }
