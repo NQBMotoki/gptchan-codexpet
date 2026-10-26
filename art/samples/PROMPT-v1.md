@@ -1,0 +1,14 @@
+# 样稿 v1 生成记录
+
+工具：内置 imagegen；日期：2026-10-26。产出：gptchan-study-v1.png。左为待机，右为等待。这是两姿势高分辨率方向样稿，未制作完整图集，也未安装或上传。
+
+参考：作者立绘与 Q版的公开收录预览（来源记录见 docs/ART-DIRECTION.md）、使用者提供的社区三视图、当前 Pet 待机。参考原图不随本次新增文件重新分发。
+
+## 最终提示词
+
+Use case: stylized-concept. Asset type: GPT酱 character-faithfulness study v1, TWO POSES ONLY, for review before making a desktop pet atlas.
+References in order: 1) archived preview of ZipZipPipe's original normal-proportion white dragon girl: primary costume, anatomy and personality reference; 2) archived preview of author's own Q-version: primary proportion and face reference; 3) user-provided COMMUNITY turnaround: secondary structural aid, NOT authoritative canon; 4) current pet idle: current asset baseline, not the desired tired expression.
+Create a polished anime character study with two full-body drawings of THE SAME WHITE DRAGON GIRL, side by side, on a truly transparent background. Left is relaxed idle, right is patiently waiting for the user's decision. Match character identity, outfit, body proportions, head size and ground baseline exactly between both poses. Around 4.5 heads tall, graceful stylized proportions appropriate for a 192x208 pet cell; keep expressive readable silhouette. Crisp restrained linework and soft controlled shading, retaining micro-pixel-anime sprite readability at small size, without noisy tiny details.
+Keep silver-white long wavy hair, pale lavender irises, confident attentive eyes (open rather than sleepy half-lidded), upward curved white dragon horns, pointed ears, white dragon wings with clearly structured lavender membranes, long genuinely scaled dragon tail with angular pointed tip. Preserve the original elegant white/lavender draped dress, high collar/halter neckline and fitted bodice, asymmetrical front opening with layered long train, detached long ruffled hanging sleeves, cool silver chain/tassel and knot/rosette motifs, white lavender shoes. Keep a few original knot motifs clearly organized; avoid extra gold jewelry and invented dense flowers. Both wings and tail must be visible, coherent anatomy, grounded feet; no cropping.
+Personality expressed visually: composed, self-possessed, capable, lightly playful, friendly without fawning. Left: upright relaxed weight-bearing stance, subtle confident smile, one hand near chest and the other relaxed outward. Right: same character with slight head tilt and lifted attentive gaze, one hand calmly offering a small open-palm cue, slight deliberate tail motion; restrained expression, no pleading, no crying, no exaggerated blush. The difference between poses should be readable.
+Do not add a floating creature, new props, alternate outfit, additional characters, speech bubbles, labels, watermarks, grid or background. This is a NEW non-official derivative study of an existing character, not a claimed original-author work.

@@ -1,0 +1,76 @@
+{
+  "worker": "jump_fail_work",
+  "rows": [
+    {
+      "state": "jumping",
+      "source": "decoded/jumping.png",
+      "sourceSha256": "3adedcbba9270fd5380aa7789f6cfc5a4f91aa2cadeac2e2f9c6ab8f2a22fd54",
+      "prompt": "prompts/jumping-production-retry1.md",
+      "frameRoot": "qa/rows/jumping/frames",
+      "report": "qa/rows/jumping/review.json",
+      "structuralOk": true,
+      "errors": [],
+      "warnings": [],
+      "sourcePreview": "qa/rows/jumping/jumping-source-preview.gif"
+    },
+    {
+      "state": "failed",
+      "source": "decoded/failed.png",
+      "sourceSha256": "dbecdaa73564c612ea99c4769c67e0f97b3b58528b18959f7797d0e23543b38e",
+      "prompt": "prompts/failed-production-retry1.md",
+      "frameRoot": "qa/rows/failed/frames",
+      "report": "qa/rows/failed/review.json",
+      "structuralOk": true,
+      "errors": [],
+      "warnings": [],
+      "sourcePreview": "qa/rows/failed/failed-source-preview.gif"
+    },
+    {
+      "state": "running",
+      "source": "decoded/running.png",
+      "sourceSha256": "9db0709777e6cf6fc30d8f8139537caf7128a7ebbde9d773ffa8b20813a5e0b4",
+      "prompt": "prompts/running-production-final.md",
+      "frameRoot": "qa/rows/running/frames",
+      "report": "qa/rows/running/review.json",
+      "structuralOk": true,
+      "errors": [],
+      "warnings": [],
+      "sourcePreview": "qa/rows/running/running-source-preview.gif"
+    }
+  ],
+  "visualReview": {
+    "sourceStripsInspected": true,
+    "nativeFramesInspected": {
+      "jumping": [
+        0,
+        2,
+        4
+      ],
+      "failed": [
+        0,
+        3,
+        7
+      ],
+      "running": [
+        0,
+        3,
+        5
+      ]
+    },
+    "observations": [
+      "Jumping has visible vertical lift and same grounded first/last baseline; final native foreground bottom values 202,190,179,191,202.",
+      "Failed is a controlled reflective dip, closed eyes/forearm gesture, then recovery; no tears or detached effects.",
+      "Running is stationary active hand processing with one blink; all foreground bottoms are 202.",
+      "All selected source strips are separated and have complete silhouettes with no source-canvas clipping."
+    ],
+    "remainingParentWork": [
+      "Cross-row shared character scale and ground registration, preserving jump displacement.",
+      "Final atlas-wide chroma despill, encoded-atlas validation and motion review."
+    ]
+  },
+  "revisions": {
+    "jumping": "retry1 repaired source edge clipping and stronger whole-silhouette lift",
+    "failed": "retry1 repaired touching skirt groups using smaller source figures with large green vertical margins",
+    "running": "single selected generation with explicit small-source layout instructions"
+  }
+}

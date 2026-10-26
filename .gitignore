@@ -6,3 +6,17 @@ dist/
 # Local source inputs; the published copies live under output/gpt-chan/.
 /pet.json
 /spritesheet.webp
+# Locally retained discarded pose studies; selected review images stay versioned.
+/art/keyposes/v2/drafts/
+# Rebuildable animation intermediates and rejected local source attempts.
+/art/animation/v2/frames*/
+/art/animation/v2/registered-frames*/
+/art/animation/v2/decoded-keyed/
+/art/animation/v2/decoded/*-pass*.png
+/art/animation/v2/final/spritesheet-standard*.png
+/art/animation/v2/final/spritesheet-assembled*.png
+/art/animation/v2/previews/interim/
+/art/animation/v2/previews/standard/
+/art/animation/v2/previews/final/video-frames/
+/art/animation/v2/qa/key96-review/
+/art/animation/v2/qa/green-inspection*.png

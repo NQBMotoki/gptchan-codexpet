@@ -1,0 +1,36 @@
+{
+  "reference": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\look-row-9.png",
+  "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\look-row-10.png",
+  "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\references\\look-row-10-normalized-source.png",
+  "uniform_source_scale": 0.9558541266794626,
+  "reference_pose_heights": [
+    490,
+    496,
+    498,
+    496,
+    488,
+    491,
+    481,
+    474
+  ],
+  "source_pose_heights": [
+    514,
+    520,
+    520,
+    520,
+    520,
+    520,
+    520,
+    521
+  ],
+  "original_canvas": [
+    2172,
+    724
+  ],
+  "normalized_canvas": [
+    2076,
+    692
+  ],
+  "per_pose_transforms": false,
+  "drawing_operations": false
+}

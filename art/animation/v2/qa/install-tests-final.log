@@ -1,0 +1,16 @@
+test_backup_restore_and_uninstall (__main__.InstallTests.test_backup_restore_and_uninstall) ... ok
+test_doctor_read_only_detects_modified_install (__main__.InstallTests.test_doctor_read_only_detects_modified_install) ... ok
+test_failure_between_directory_moves_restores_original (__main__.InstallTests.test_failure_between_directory_moves_restores_original) ... ok
+test_install_idempotence_doctor_and_unrelated_pet (__main__.InstallTests.test_install_idempotence_doctor_and_unrelated_pet) ... ok
+test_invalid_sources_preserve_existing_package (__main__.InstallTests.test_invalid_sources_preserve_existing_package) ... ok
+test_lock_blocks_writes (__main__.InstallTests.test_lock_blocks_writes) ... ok
+test_modified_valid_source_rejected_by_catalog_hash (__main__.InstallTests.test_modified_valid_source_rejected_by_catalog_hash) ... ok
+test_native_wrapper (__main__.InstallTests.test_native_wrapper) ... ok
+test_outfit_registration_switch_and_return_same_pet_id (__main__.InstallTests.test_outfit_registration_switch_and_return_same_pet_id) ... ok
+test_release_archive_install_and_repeatable_build (__main__.InstallTests.test_release_archive_install_and_repeatable_build) ... ok
+test_source_path_escape_and_backup_traversal_rejected (__main__.InstallTests.test_source_path_escape_and_backup_traversal_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 7.099s
+
+OK

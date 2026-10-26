@@ -1,0 +1,18 @@
+{
+  "skill": "work-pets/create-pet",
+  "version": "0.1.6",
+  "scripts": {
+    "prepare_pet_run.py": "cf806ef4bed67b6ca0a568fdc3a47b178272a82d1ce5949ebc2b3c59e4f253d9",
+    "extract_strip_frames.py": "af2cfea385189df30674c91f4658a49e5b51e58471057fbca0b3319cf932c75e",
+    "inspect_frames.py": "d8a43f01970c511c74f77d256c2c81d41e70cfb7ec234f5bbd76b60b3ebbdfe4",
+    "compose_atlas.py": "d690f42252746b3306007b269168e62cff08b36d58e9aef246b78d986b6a10d5",
+    "assemble_extended_atlas.py": "a8684c22e9409f1add388688218c8fa7e267b88b91fcb3edc3280dc87ebf1c3e",
+    "despill_chroma_edges.py": "dc93a5e752f4100e55010205462a8e7272bac451ee7e29b525abd6157a7fe309",
+    "validate_atlas.py": "cd28f7e3ed4fc7d879239cbf4d4a5ae1fb603f457b14560ef2c8e15899507b6b",
+    "make_contact_sheet.py": "721399a805ae58d91a85a4d27e8bb3503eb20f4132fe4261e83acc166adc6a56",
+    "render_animation_previews.py": "5fe50707052f815964cc5bfc35addc79b2d55f3331fc7562645e56835211a400",
+    "make_direction_qa_sheet.py": "ed09a31b3bc9b68f929a7a85be367c5b7d5639215260f98af6c97df896197908",
+    "measure_direction_continuity.py": "e24b7065af82eab5638f1fcdeb627d497391a2f1e9ba19801827d1db3a6d8c2d",
+    "validate_pet_quality.py": "2e83db1c5a2a16d4ddc3ef22c4c9856310c438a8426bad99f962f99e9597e555"
+  }
+}

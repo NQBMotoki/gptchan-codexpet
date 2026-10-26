@@ -1,0 +1,973 @@
+{
+  "ok": true,
+  "frames_root": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12534,
+          "bbox": [
+            43,
+            32,
+            150,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 62
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12419,
+          "bbox": [
+            44,
+            32,
+            149,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 75
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12282,
+          "bbox": [
+            45,
+            32,
+            148,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 80
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12292,
+          "bbox": [
+            44,
+            33,
+            149,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 82
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12471,
+          "bbox": [
+            43,
+            32,
+            149,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 76
+        },
+        {
+          "index": 5,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12161,
+          "bbox": [
+            45,
+            32,
+            148,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 75
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13715,
+          "bbox": [
+            29,
+            31,
+            160,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 467
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12508,
+          "bbox": [
+            30,
+            30,
+            160,
+            207
+          ],
+          "edge_pixels": 7,
+          "chroma_adjacent_pixels": 398
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12530,
+          "bbox": [
+            33,
+            32,
+            157,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 401
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12340,
+          "bbox": [
+            29,
+            32,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 445
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13683,
+          "bbox": [
+            25,
+            32,
+            166,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 403
+        },
+        {
+          "index": 5,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12344,
+          "bbox": [
+            36,
+            31,
+            154,
+            207
+          ],
+          "edge_pixels": 10,
+          "chroma_adjacent_pixels": 429
+        },
+        {
+          "index": 6,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12306,
+          "bbox": [
+            34,
+            33,
+            157,
+            207
+          ],
+          "edge_pixels": 12,
+          "chroma_adjacent_pixels": 424
+        },
+        {
+          "index": 7,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13283,
+          "bbox": [
+            25,
+            33,
+            165,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 458
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13435,
+          "bbox": [
+            22,
+            32,
+            169,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 447
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12703,
+          "bbox": [
+            33,
+            33,
+            159,
+            206
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 418
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13500,
+          "bbox": [
+            28,
+            32,
+            163,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 429
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13208,
+          "bbox": [
+            29,
+            32,
+            162,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 439
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12988,
+          "bbox": [
+            26,
+            33,
+            165,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 416
+        },
+        {
+          "index": 5,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13038,
+          "bbox": [
+            31,
+            32,
+            160,
+            206
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 447
+        },
+        {
+          "index": 6,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13020,
+          "bbox": [
+            29,
+            33,
+            162,
+            206
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 450
+        },
+        {
+          "index": 7,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12685,
+          "bbox": [
+            29,
+            32,
+            162,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 443
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13471,
+          "bbox": [
+            34,
+            32,
+            159,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 44
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13584,
+          "bbox": [
+            34,
+            32,
+            159,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 54
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13628,
+          "bbox": [
+            34,
+            32,
+            159,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 51
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13485,
+          "bbox": [
+            34,
+            32,
+            159,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 56
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13394,
+          "bbox": [
+            34,
+            31,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 95
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13068,
+          "bbox": [
+            34,
+            22,
+            157,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 159
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13964,
+          "bbox": [
+            34,
+            5,
+            157,
+            181
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 240
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13109,
+          "bbox": [
+            34,
+            22,
+            157,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 156
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13324,
+          "bbox": [
+            34,
+            32,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 108
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11730,
+          "bbox": [
+            45,
+            33,
+            147,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 289
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11296,
+          "bbox": [
+            46,
+            33,
+            145,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 267
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11021,
+          "bbox": [
+            48,
+            33,
+            143,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 250
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10656,
+          "bbox": [
+            48,
+            35,
+            143,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 263
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10472,
+          "bbox": [
+            50,
+            35,
+            142,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 290
+        },
+        {
+          "index": 5,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10975,
+          "bbox": [
+            48,
+            34,
+            143,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 294
+        },
+        {
+          "index": 6,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11304,
+          "bbox": [
+            46,
+            33,
+            145,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 268
+        },
+        {
+          "index": 7,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11401,
+          "bbox": [
+            46,
+            33,
+            145,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 301
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11770,
+          "bbox": [
+            44,
+            32,
+            149,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 107
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11515,
+          "bbox": [
+            46,
+            32,
+            147,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 88
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11389,
+          "bbox": [
+            46,
+            32,
+            147,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 86
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11465,
+          "bbox": [
+            46,
+            32,
+            147,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 97
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11331,
+          "bbox": [
+            47,
+            32,
+            146,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 90
+        },
+        {
+          "index": 5,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11525,
+          "bbox": [
+            46,
+            32,
+            147,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 96
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12283,
+          "bbox": [
+            40,
+            32,
+            152,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 135
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12000,
+          "bbox": [
+            42,
+            32,
+            150,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 129
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11909,
+          "bbox": [
+            43,
+            31,
+            149,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 114
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11807,
+          "bbox": [
+            42,
+            33,
+            150,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 119
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11962,
+          "bbox": [
+            42,
+            31,
+            150,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 5,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11785,
+          "bbox": [
+            43,
+            31,
+            149,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 116
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11372,
+          "bbox": [
+            46,
+            32,
+            147,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 105
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11112,
+          "bbox": [
+            48,
+            33,
+            144,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 107
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10598,
+          "bbox": [
+            51,
+            31,
+            142,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 99
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11083,
+          "bbox": [
+            49,
+            31,
+            144,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 96
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11223,
+          "bbox": [
+            47,
+            33,
+            145,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 93
+        },
+        {
+          "index": 5,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\registered-frames\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11042,
+          "bbox": [
+            47,
+            32,
+            146,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 114
+        }
+      ]
+    }
+  ]
+}

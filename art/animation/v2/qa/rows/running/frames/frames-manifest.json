@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "running",
+      "frames": [
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\running\\frames\\running\\00.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\running\\frames\\running\\01.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\running\\frames\\running\\02.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\running\\frames\\running\\03.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\running\\frames\\running\\04.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\running\\frames\\running\\05.png"
+      ],
+      "method": "components"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A shows both eyes almost frontally, but its nose and chin lean to screen-right and the face opens right. B has a clear left-facing nose and chin, with its visible eye directed up-left."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's lifted face has its nose and chin on the right edge. B's face projects left of the neck and the visible eye looks left."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A shows a right-facing profile with the nose projecting right. B's nose and cheek face left and its chin sits left of the neck."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A exposes a rightward eye, nose, and chin silhouette. B bows slightly and turns its visible face left, with the nose at the left edge."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's lowered nose and chin point left of the neck. B opens the face to the right and has a right-projecting nose in profile."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A bows with its nose, cheek, and chin displaced left. B also bows, but its face and nose are directed toward screen-right."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's downcast face turns left, placing its chin left of the neck. B's downcast face opens right and the nose appears on the right silhouette."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A bends its head forward, exposing more crown and hiding the lowered eyes beneath the bangs; its chin approaches the chest. B lifts its chin and nose and looks upward."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A has a raised chin, an upward-directed eye, and visible neck beneath the jaw. B tucks its chin and lowers its face toward the chest."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A's nose and visible eye point downward along a bowed profile. B tilts the head back with the chin and nose raised and the eye looking upward."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "up",
+      "B": "ambiguous",
+      "reason": "A clearly lifts its nose and chin and directs the visible eye upward. B's head is closer to level; its chin is slightly low, but a definite downward gaze or forward bow is not clear."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A tips the face back and raises the chin away from the chest, with the eye looking up-left. B lowers the forehead and eyes and tucks the chin toward the chest."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A bows the face and chin down, with the eyes lowered under the bangs. B has an elevated nose and chin and looks upward to the left."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A's chin points toward the chest and its visible eye is downcast. B raises the nose and chin and directs the visible eye up-left."
+    }
+  ]
+}
