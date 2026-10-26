@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A has the nose and chin toward the right side of the face, with the eye line following right; B projects its nose and chin left."},
+    {"pair":"horizontal-2","A":"screen-right","B":"screen-left","reason":"A exposes its nose and cheek on the right side of the bangs; B has a leftward nose profile and leftward visible eye."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A presents a right-facing nose and chin profile; B presents the visible eye, nose and chin on the left-facing side."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A has the projecting nose on the right edge of its face; B places the nose and chin toward the left side of the head."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A lowers its head while the nose and chin project left; B exposes a right-facing eye and nose profile."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A has its lowered face, eye and chin on the left side of the hair mass; B exposes its eye and nose on the right side."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"A is bowed and nearly frontal, with a slight leftward nose and chin offset relative to the crown; B has its visible eye, nose and chin toward the right side of the lowered head."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A tilts its crown forward and tucks its chin, with lowered eyes beneath the bangs; B raises the nose and chin and reveals the neck under the jaw."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A lifts its nose and chin away from the chest; B lowers its eyes and chin beneath the forward-tilted crown."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A drops its face and tucks its chin toward the chest; B raises its chin and points its face upward."},
+    {"pair":"vertical-4","A":"up","B":"down","reason":"A raises the right-facing nose and chin and shows more neck under the jaw; B lowers the nose and chin along the right-facing profile."},
+    {"pair":"vertical-5","A":"up","B":"down","reason":"A points its left-facing nose and chin upward; B bows forward, lowers the eyes, and tucks the chin toward the chest."},
+    {"pair":"vertical-6","A":"down","B":"up","reason":"A lowers the left-facing eye, nose and chin toward the chest; B raises its left-facing chin and exposes the neck beneath the jaw."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A lowers its nose and chin beneath the forward crown; B lifts its left-facing nose and chin and shows more of the neck below the face."}
+  ]
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GPT酱 v2 · 七状态关键姿势审看</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f0f7;color:#332c43;font:16px/1.65 system-ui,sans-serif}
+main{max-width:1300px;margin:32px auto;padding:24px}h1{font-size:28px;line-height:1.3}
+p{max-width:900px}.controls{display:flex;gap:16px;flex-wrap:wrap;margin:20px 0}
+button{font:inherit;padding:8px 14px;background:white;color:#493769;border:1px solid #c3b4d7;border-radius:8px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+figure{margin:0;border:1px solid #d7cfe2;border-radius:14px;overflow:hidden;background:#fff}
+.stage{height:500px;display:flex;justify-content:center;align-items:center;background:#fff;padding:12px}
+.stage img{display:block;width:100%;height:100%;object-fit:contain}
+figcaption{padding:16px}h2{font-size:18px;margin:0 0 8px}small{display:block;color:#70667f}
+body.dark .stage{background:#292534}
+body.native .stage{height:244px}
+body.native .stage img{width:192px;height:208px}
+.reference{display:block;max-width:100%;max-height:560px;object-fit:contain;margin:auto;background:#fff}
+a{color:#674a9b}.note{font-size:14px;color:#70667f}
+</style><main>
+<h1>GPT酱 v2 · 七状态关键姿势</h1>
+<p>已认可的待机／等待作为角色基线。本页集中比较其余七种动作的脸、比例、服装、翼尾与表演；当前均为关键姿势，不代表完整动画、正式透明帧或实机效果已验收。</p>
+<div class="controls"><button id="background">切换深浅背景</button><button id="size">切换 192×208 适配预览</button></div>
+<details><summary>展开已认可的待机／等待基线</summary><img class="reference" src="../../samples/gptchan-study-v1.png" alt="已认可的待机和等待样稿"></details>
+<p class="note">本轮采用单姿势白底审稿图。深色按钮只改变图外衬底，不是透明边缘验收。缩小预览采用整张图片等比适配，不代表已经制作原生帧。审看顺序：角色一致性 → 状态表达 → 手部、翼尾与服装结构。</p>
+<div class="grid">
+<figure><a href="running-right.png"><div class="stage"><img src="running-right.png" alt="向右移动关键姿势"></div></a><figcaption><h2>向右移动</h2><small>running-right</small><p>朝画面右侧迈步，检查运动方向与整体平衡。</p></figcaption></figure>
+<figure><a href="running-left.png"><div class="stage"><img src="running-left.png" alt="向左移动关键姿势"></div></a><figcaption><h2>向左移动</h2><small>running-left</small><p>朝画面左侧迈步，重点比较头部比例与右行是否一致。</p></figcaption></figure>
+<figure><a href="waving.png"><div class="stage"><img src="waving.png" alt="挥手关键姿势"></div></a><figcaption><h2>挥手</h2><small>waving</small><p>小幅挥手与克制微笑，保留从容的亲和感。</p></figcaption></figure>
+<figure><a href="jumping.png"><div class="stage"><img src="jumping.png" alt="跳跃关键姿势"></div></a><figcaption><h2>跳跃／完成庆祝</h2><small>jumping</small><p>跳跃最高点；检查腾空姿态、中性表情与微张口。</p></figcaption></figure>
+<figure><a href="failed.png"><div class="stage"><img src="failed.png" alt="失败关键姿势"></div></a><figcaption><h2>失败</h2><small>failed</small><p>轻微停顿与反思，保持镇定，不以哭泣表现失败。</p></figcaption></figure>
+<figure><a href="running.png"><div class="stage"><img src="running.png" alt="工作关键姿势"></div></a><figcaption><h2>工作中</h2><small>running</small><p>双手向前的小幅处理动作，读作工作进行中。</p></figcaption></figure>
+<figure><a href="review.png"><div class="stage"><img src="review.png" alt="检查关键姿势"></div></a><figcaption><h2>检查中</h2><small>review</small><p>托下巴与评估目光，读作检查和判断。</p></figcaption></figure>
+</div><p class="note">原角色形象：ZipZipPipe。本批为本项目 AI 辅助二创，非原作者确认设定。记录见 <a href="BRIEF.md">制作说明</a>、<a href="prompts-pass2.json">本批完整提示词</a>。首轮探索图保留在 drafts/，未选作本页审稿图。</p>
+</main><script>
+document.getElementById('background').onclick=()=>document.body.classList.toggle('dark');
+document.getElementById('size').onclick=()=>document.body.classList.toggle('native');
+</script></html>

@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-10-27",
+  "package": "E:\\codex-playground\\gptchan-codexpet\\dist\\gptchan-codexpet.zip",
+  "package_sha256": "4aa2e0b84aacdd5261230a64566534d455f6f64dcfd6e30e5931067743b7f3bc",
+  "package_bytes": 2084741,
+  "atlas_sha256": "87e703010439e620479566b674a1bafa84542fd6f92387faf791600709d08111",
+  "package_matches_source": true,
+  "previews_match_source": true,
+  "markdown_links_resolve_in_package": true,
+  "native_gif_frame_counts": true,
+  "install_tests": "11/11 passed; qa/install-tests-final.log",
+  "cloud_mutated": false,
+  "personal_install_mutated": false,
+  "remote_published": false
+}

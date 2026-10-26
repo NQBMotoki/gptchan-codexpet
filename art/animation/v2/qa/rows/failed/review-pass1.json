@@ -1,0 +1,162 @@
+{
+  "ok": false,
+  "frames_root": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames",
+  "states": [
+    "failed"
+  ],
+  "errors": [
+    "failed frame 00 is empty or too sparse (2 pixels)",
+    "failed frame 01 is empty or too sparse (4 pixels)",
+    "failed frame 02 is empty or too sparse (7 pixels)",
+    "failed frame 03 is empty or too sparse (4 pixels)",
+    "failed frame 05 is empty or too sparse (2 pixels)",
+    "failed frame 06 is empty or too sparse (4 pixels)",
+    "failed frame 07 is empty or too sparse (4 pixels)"
+  ],
+  "warnings": [
+    "failed frame 04 is much larger than the row median (7425 vs 4)"
+  ],
+  "rows": [
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": false,
+      "errors": [
+        "failed frame 00 is empty or too sparse (2 pixels)",
+        "failed frame 01 is empty or too sparse (4 pixels)",
+        "failed frame 02 is empty or too sparse (7 pixels)",
+        "failed frame 03 is empty or too sparse (4 pixels)",
+        "failed frame 05 is empty or too sparse (2 pixels)",
+        "failed frame 06 is empty or too sparse (4 pixels)",
+        "failed frame 07 is empty or too sparse (4 pixels)"
+      ],
+      "warnings": [
+        "failed frame 04 is much larger than the row median (7425 vs 4)"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2,
+          "bbox": [
+            95,
+            88,
+            97,
+            89
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4,
+          "bbox": [
+            95,
+            107,
+            97,
+            109
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7,
+          "bbox": [
+            93,
+            108,
+            99,
+            112
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 1
+        },
+        {
+          "index": 3,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4,
+          "bbox": [
+            95,
+            106,
+            97,
+            108
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7425,
+          "bbox": [
+            5,
+            79,
+            187,
+            129
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 33
+        },
+        {
+          "index": 5,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2,
+          "bbox": [
+            95,
+            88,
+            97,
+            89
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4,
+          "bbox": [
+            95,
+            86,
+            97,
+            88
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4,
+          "bbox": [
+            95,
+            88,
+            97,
+            90
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

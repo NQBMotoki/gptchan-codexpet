@@ -1,0 +1,231 @@
+{
+  "phase": "key-pose-review",
+  "productionReady": false,
+  "baselineSha256": "ca7c7997bb3391ac6574ea61e1ed31b874c2c4f1b936785dc99506bd66992dde",
+  "images": [
+    {
+      "state": "running-right",
+      "file": "running-right.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "corners": [
+        [
+          253,
+          255,
+          255
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          253,
+          253,
+          253
+        ]
+      ],
+      "sha256": "4d766d3aa543795c373e5fb029986303bb7ca17163f1f874a361f42a2a21c468"
+    },
+    {
+      "state": "running-left",
+      "file": "running-left.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "corners": [
+        [
+          253,
+          253,
+          254
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          253,
+          253,
+          253
+        ]
+      ],
+      "sha256": "4411d5b432c26c0de07ffad23bce8d0af00cef836dc4abd2ae2c5b132791839d"
+    },
+    {
+      "state": "waving",
+      "file": "waving.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "corners": [
+        [
+          253,
+          253,
+          254
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          253,
+          253,
+          253
+        ]
+      ],
+      "sha256": "6f232d58f4240bec0685ceee88ba3a36bad52f64b25065709cd89499dd2ffa74"
+    },
+    {
+      "state": "jumping",
+      "file": "jumping.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "corners": [
+        [
+          253,
+          253,
+          254
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          253,
+          253,
+          253
+        ]
+      ],
+      "sha256": "e437cfbad802ab62550fb28e49dd5ac8821e77fe9379a59b5c765974375b5af1"
+    },
+    {
+      "state": "failed",
+      "file": "failed.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "corners": [
+        [
+          253,
+          253,
+          254
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          253,
+          253,
+          252
+        ],
+        [
+          253,
+          253,
+          253
+        ]
+      ],
+      "sha256": "ed370cda9b692288f9e1654aa0903eadea6b3231aeb92372b0281b9a995861fd"
+    },
+    {
+      "state": "running",
+      "file": "running.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "corners": [
+        [
+          253,
+          253,
+          254
+        ],
+        [
+          255,
+          255,
+          254
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          253,
+          253,
+          253
+        ]
+      ],
+      "sha256": "9f578d92c7339949b8a571ce12ca0f2ff9e0aebdc84e6816bc92dab4915334ee"
+    },
+    {
+      "state": "review",
+      "file": "review.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "corners": [
+        [
+          253,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          253,
+          253,
+          253
+        ]
+      ],
+      "sha256": "ef76bab25d964db20c7774329666d537d202095ff8a6d4508c6ca3de8244e882"
+    }
+  ]
+}

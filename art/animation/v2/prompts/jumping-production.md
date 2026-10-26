@@ -1,0 +1,21 @@
+Create one horizontal animation strip for ChatGPT pet `gpt-chan`, state `jumping`.
+
+Use the attached canonical base for identity. Use the attached layout guide only for slot count, spacing, centering, and padding; do not draw the guide.
+
+Output exactly 5 full-body frames in one left-to-right row on flat pure green #00FF00. Treat the row as 5 invisible equal-width slots: one centered complete pose per slot, evenly spaced, with no overlap, clipping, empty slots, labels, or borders.
+
+Identity: same pet in every frame: User-approved silver-white long hair, lavender eyes, curved white dragon horns, pointed ears, white wings with lavender membranes, scaled long tail, high-collar white lavender draped dress with detached ruffled sleeves, asymmetric slit and long train, silver chains and knot rosettes; graceful 4.5-head proportions. Composed, capable, alert, lightly playful; preserve approved poses and no new props or quiet/expressive variants.. Preserve silhouette, face, proportions, markings, palette, material, style, and props.
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `auto`: Infer the most appropriate pet-safe style from the user request and reference images, then keep that exact style consistent across every row. User style notes: Approved polished anime sprite with crisp restrained linework, soft cool shading, simplified readable details at 192x208; no noisy ornament drift..
+Animation continuity: keep apparent pet scale and baseline stable within the row unless the state itself intentionally changes vertical position, such as `jumping`. Move the pose within the slot instead of redrawing the pet larger or smaller frame to frame.
+
+State action: Hover jump loop: anticipation, lift, airborne peak, descent, and settle through body height.
+
+State requirements:
+- Show the jump through pose and vertical body position only: anticipation, lift, airborne peak, descent, settle.
+- Do not draw ground shadows, contact shadows, drop shadows, oval shadows, landing marks, dust, smears, bounce pads, or motion marks under the pet.
+- Keep the background outside the pet perfectly flat chroma key with no darker key-colored patches.
+
+Clean extraction: crisp opaque edges, safe padding, no scenery, text, guide marks, checkerboard, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or chroma-key colors inside the pet.
+
+
+USER-APPROVED POSE LOCK: input images are canonical-base (identity), original two-view approved study (identity only, NOT output layout), 5-slot layout guide (spacing only), and approved jumping key pose (airborne posture). Produce EXACTLY FIVE figures, all in ONE horizontal row, no other figures or insets. Same face and SAME body/head scale across all five. Frame 1 upright grounded anticipation, frame 2 rising with shoes 20 pixels above the common ground baseline, frame 3 highest bent-knee approved pose with both shoes clearly 45 pixels above the ground baseline and neutral slightly open mouth, frame 4 descending at 20 pixels above ground, frame 5 matching frame 1 grounded and composed. Source vertical placement MUST visibly rise and fall. Keep both wings and full tail, all fingers and heels and hem inside each invisible slot. At least 10% pure green gap between figures, no touching or overlap. Upper margin enough for peak frame. Do not make airborne figures smaller. No grin, crying, excitement marks, shadows or detached effects. Exact flat opaque green background #00FF00.

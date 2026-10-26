@@ -1,63 +1,64 @@
 # GPT酱 · gpt-chan Codex Pet
 
-白发紫瞳、神态疏淡的 GPT 龙娘，穿着白紫长裙，带有龙角、龙翼与龙尾。微像素动漫画风，适用于支持原生 v2 桌宠的 Codex Desktop。
+白发紫瞳、白紫礼服的 GPT 龙娘，带有龙角、龙翼与鳞尾。本轮 `1.1.0-dev` 已将认可的形象制作成九动作、十六向注视的原生 v2 动画，气质从容、专注，略有俏皮。
 
-原形象作者：**[ZipzipPipe（B站 UID 4168597）](https://space.bilibili.com/4168597)**。本项目为非官方 AI 辅助二创，来源与权利说明见 [NOTICE.md](NOTICE.md)。
+原形象作者：**[ZipZipPipe（B站 UID 4168597）](https://space.bilibili.com/4168597)**。非官方 AI 辅助二创，来源与权利说明见 [NOTICE.md](NOTICE.md)。
 
-[![验证与打包](https://github.com/NQBMotoki/gptchan-codexpet/actions/workflows/package.yml/badge.svg)](https://github.com/NQBMotoki/gptchan-codexpet/actions/workflows/package.yml) · [下载最新 Release](https://github.com/NQBMotoki/gptchan-codexpet/releases/latest)
+[![验证与打包](https://github.com/NQBMotoki/gptchan-codexpet/actions/workflows/package.yml/badge.svg)](https://github.com/NQBMotoki/gptchan-codexpet/actions/workflows/package.yml) · [最新 Release](https://github.com/NQBMotoki/gptchan-codexpet/releases/latest)
 
-<table>
-<tr>
+<table><tr>
 <td align="center"><img src="assets/readme/animations/idle.gif" width="192" alt="GPT酱待机"><br>待机</td>
 <td align="center"><img src="assets/readme/animations/running.gif" width="192" alt="GPT酱工作中"><br>工作中</td>
-<td align="center"><img src="assets/readme/animations/jumping.gif" width="192" alt="GPT酱完成庆祝"><br>完成庆祝</td>
-</tr>
-</table>
+<td align="center"><img src="assets/readme/animations/jumping.gif" width="192" alt="GPT酱跳跃"><br>完成庆祝</td>
+</tr></table>
 
-## 快速安装
+## 安装、诊断与恢复
 
-原生安装只需将 [`output/gpt-chan/pet.json`](output/gpt-chan/pet.json) 与 [`output/gpt-chan/spritesheet.webp`](output/gpt-chan/spritesheet.webp) 放在同一个 `gpt-chan` 文件夹中。安装脚本会先备份已有的同名文件，随后复制两个文件；不会操作其他桌宠。
-
-### Windows（PowerShell）
+下载 Release ZIP 或克隆仓库，进入解压目录／仓库根目录：
 
 ```powershell
-git clone https://github.com/NQBMotoki/gptchan-codexpet.git
-Set-Location gptchan-codexpet
+# Windows；验证脚本需要 Python 3.10+，不需要 Pillow 或 API Key
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\install.ps1
 ```
 
-默认安装路径：`%USERPROFILE%\.codex\pets\gpt-chan\`。
-
-### macOS
-
 ```bash
-git clone https://github.com/NQBMotoki/gptchan-codexpet.git
-cd gptchan-codexpet
+# macOS / Linux
 bash scripts/install.sh
 ```
 
-默认安装路径：`~/.codex/pets/gpt-chan/`。两个安装脚本均尊重已有的 `CODEX_HOME` 设置。
+默认目标是用户目录的 `.codex/pets/gpt-chan/`，尊重 CODEX_HOME。新安装逻辑会先校验配置、WebP 头部、图集尺寸和登记哈希，在暂存目录准备完整包，备份旧目录后切换，普通异常恢复旧包。重复安装相同内容会跳过。备份位于 `CODEX_HOME/.pet-backups/gpt-chan/`。
 
-### 手动安装
-
-从 [最新 Release](https://github.com/NQBMotoki/gptchan-codexpet/releases/latest) 下载 `gptchan-codexpet.zip` 并解压。创建上述安装目录，把解压后 `gpt-chan/` 中的 `pet.json` 和 `spritesheet.webp` 复制进去。已有同名文件时请先备份，来源声明 `NOTICE.md` 请保留。
-
-Release 附带 `SHA256SUMS.txt`。macOS 可用 `shasum -a 256 gptchan-codexpet.zip`，Windows 可用 `Get-FileHash .\gptchan-codexpet.zip -Algorithm SHA256`，将结果与校验文件比较。
-
-也可用 **Code → Download ZIP** 下载源码；对应安装文件在 `output/gpt-chan/`。
-
-重新启动 Codex，在 **设置 → Pets** 中刷新列表并选择 **GPT酱**。仓库配置并不会自动安装到你的电脑。
-
-### Agent 安装提示词
+**新增依赖：**为统一跨平台校验与恢复，验证脚本使用 Python 3.10+ 标准库。无 Python 可手动复制：源码中的 `output/gpt-chan/` 或 Release 中的 `gpt-chan/`，详见 [INSTALL.md](INSTALL.md)。
 
 ```text
-请在这台电脑上安装 https://github.com/NQBMotoki/gptchan-codexpet 的 GPT酱桌宠。
-读取仓库 README，识别操作系统，下载 output/gpt-chan/pet.json 和 spritesheet.webp。
-使用 CODEX_HOME（若已设置），否则使用用户目录中的 .codex，安装到 pets/gpt-chan/。
-已有同名文件时先备份，不操作其他桌宠。检查 id 为 gpt-chan、spriteVersionNumber 为 2，
-图集为 1536×2288 透明 WebP。报告实际路径，并提醒我重启 Codex，在设置 → Pets 中选择 GPT酱。
-若无法显示，先诊断版本和运行后端，不要擅自修改后端设置或转换图集格式。
+python scripts/petctl.py doctor
+python scripts/petctl.py backups
+python scripts/petctl.py restore BACKUP_ID
+python scripts/petctl.py uninstall
 ```
+
+这些命令支持 `--codex-home PATH`。doctor 只读，输出本地路径、发行版本、服装 ID 和哈希完整性；不会把本地文件检查当作云端活动宠物检查。卸载也先保留备份。安装后重新打开应用并在 Pets 设置中选择 GPT酱。更多操作见 [docs/OPERATIONS.md](docs/OPERATIONS.md)。
+
+发布包附 SHA256SUMS.txt。Windows 用 `Get-FileHash .\gptchan-codexpet.zip -Algorithm SHA256`；macOS 用 `shasum -a 256 gptchan-codexpet.zip`，与发布校验值比较。
+
+## 换装与预览
+
+同一 GPT酱 身份可以切换完整服装图集。当前只有完成的 `classic` 经典白紫礼服；后续新服装登记后复用相同验证、备份和恢复流程。
+
+```text
+python scripts/petctl.py outfits
+python scripts/petctl.py install --outfit classic
+```
+
+每套服装都需要九种动作和十六向视线。登记命令、目录与哈希约定见 [换装说明](docs/OUTFITS.md)。切换不保证宿主热更新，也不会自动更新账号云端宠物。
+
+双击 [preview.html](preview.html) 可离线预览服装、动作、逐帧、深浅背景和缩放，不依赖网站或 API。GitHub 页面上的 HTML 需要下载后打开。
+
+## 本轮动画与形象依据
+
+[九状态动态预览](art/animation/v2/previews/final/all-states.gif) · [十六向注视](art/animation/v2/previews/final/look-loop.gif) · [MP4](art/animation/v2/previews/final/all-states.mp4) · [本轮审看与验收](docs/ANIMATION-REVIEW.md)。全部预览从实际安装图集的相同编码字节渲染，播放速度用于审看。
+
+[待机／等待样稿 v1](art/samples/gptchan-study-v1.png) 与 [七状态关键姿势](art/keyposes/v2/REVIEW.md) 已获使用者认可，是本轮动画的形象依据。十六向第二行采用使用者明确更喜欢的第一组，弃用侧脸变形的重绘稿。[形象基线](docs/ART-DIRECTION.md) 区分原作、社区参考和本项目解释；[生产记录](art/animation/v2/PRODUCTION.md) 保留生成、清理、配准与验收依据。
 
 ## 动作图鉴
 
@@ -85,23 +86,30 @@ Release 附带 `SHA256SUMS.txt`。macOS 可用 `shasum -a 256 gptchan-codexpet.z
 
 ```bash
 python -m pip install -r requirements.txt
-python scripts/build.py
+python scripts/build.py --no-previews
+python scripts/verify_install.py
 ```
 
-脚本检查配置、尺寸、透明度、有效帧和空白格，生成 PNG／GIF 预览，并输出 `dist/gptchan-codexpet.zip` 和 `dist/SHA256SUMS.txt`。解压后得到 `gpt-chan/pet.json`、`gpt-chan/spritesheet.webp` 与来源声明。图集保留原始像素；GIF 使用浅色背景供文档展示。
+构建会完整解码全部登记服装，验证透明度、有效格、空白格，生成离线预览并打包 `dist/gptchan-codexpet.zip` 与 SHA256SUMS.txt。省略 --no-previews 可重新生成经典服装 PNG／GIF；构建本身不重绘图集。
 
-运行 `python scripts/verify_install.py` 可在临时目录验证安装、同名备份、含空格路径及其他宠物保留。GitHub Actions 在 Linux 和 Windows 上执行验证，并提供 ZIP artifact；推送 `v*` 标签时，待两平台检查通过后自动发布 Release。
+ZIP 保留 `gpt-chan/` 手动安装目录，并附 scripts、docs、INSTALL.md、服装目录、版本记录和离线预览。release-info.json 中发行版本与素材格式 spriteVersionNumber=2 分开；记录哈希、服装与可取得的源码提交信息。
 
-## 项目结构
+测试在隔离目录覆盖正常／异常安装、备份恢复、换装、路径、锁和可重复打包。CI 配置覆盖 Windows、Ubuntu、macOS；三个平台通过后复用 Linux 已验证 artifact 发布，避免重新构建另一份包。本轮新流程的实际验证状态见 [兼容性记录](docs/COMPATIBILITY.md)。
 
-- `output/gpt-chan/`：原生 v2 安装包。
-- `assets/readme/`：九个动作的 PNG 与 GIF 预览。
-- `scripts/`：验证、打包和 Windows／macOS 安装脚本。
-- `.github/workflows/package.yml`：自动验证与打包。
-- `NOTICE.md`：素材来源与署名。
+## 已知边界
 
-## 已知限制
+动作触发、播放速度、鼠标跟随与资源刷新由宿主控制。结构或脚本测试通过不等于桌面显示已验收。断电或强杀进程后的恢复步骤、旧版备份说明见维护文档。安装工具不自动改后端设置。
 
-动作触发、鼠标视线跟随由 Codex 运行器决定，本仓库不提供事件监听程序。安装后无法显示时，请先确认两个文件的位置、Codex 版本与实际使用的 `CODEX_HOME`。Windows 使用 WSL 后端时可参考上游兼容性问题 [openai/codex#20730](https://github.com/openai/codex/issues/20730)；修改后端可能影响工作流，应由使用者决定。
+本地桌面原生 v2 与网页上传分别验证，不自动裁切或转换图集。账号云端副本的更新需要宿主支持的更新流程，并保留既有稳定身份。
 
-包结构参考 [remielle-codex-pet](https://github.com/HanaAyane/remielle-codex-pet)，使用的是仓库所有者现有 GPT酱素材。
+## English
+
+GPT-chan is an unofficial white-dragon-girl pet based on ZipZipPipe's character design. It includes a native v2 atlas, nine animation states and sixteen gaze cells.
+
+Download a release or clone this repository. Verified installation uses Python 3.10+ (standard library only): run scripts/install.ps1 on Windows or bash scripts/install.sh on macOS/Linux. Manual installation without Python remains available in [INSTALL.md](INSTALL.md).
+
+The offline manager supports outfit selection under the same pet ID, integrity checks, backups, restore and read-only diagnostics. Only the classic dress is currently complete. Concept artwork is separate from installable atlases. See [NOTICE.md](NOTICE.md) for attribution and [compatibility](docs/COMPATIBILITY.md) for verification limits.
+
+## 贡献与来源
+
+修改前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。包结构参考 [remielle-codex-pet](https://github.com/HanaAyane/remielle-codex-pet)，现有图集沿用本仓库所有者的 GPT酱 素材。新增维护工具不代表获得第三方角色素材的额外授权。

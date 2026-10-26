@@ -1,0 +1,64 @@
+{
+  "ok": false,
+  "strip": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [
+    "180 has 46 non-transparent pixels near its source slot edge",
+    "270 has 48 non-transparent pixels near its source slot edge"
+  ],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        542,
+        725
+      ],
+      "used_pixels": 183633,
+      "edge_pixels": 0,
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\references\\look-cardinals\\000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        542,
+        0,
+        1085,
+        725
+      ],
+      "used_pixels": 177059,
+      "edge_pixels": 0,
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\references\\look-cardinals\\090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        1085,
+        0,
+        1628,
+        725
+      ],
+      "used_pixels": 177767,
+      "edge_pixels": 46,
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\references\\look-cardinals\\180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1628,
+        0,
+        2170,
+        725
+      ],
+      "used_pixels": 178299,
+      "edge_pixels": 48,
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\references\\look-cardinals\\270.png"
+    }
+  ]
+}

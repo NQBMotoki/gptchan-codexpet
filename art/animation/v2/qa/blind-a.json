@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A shows its nose and chin at the right side of the face with the near eye left of the nose; B exposes a left-facing cheek with its nose projecting left of the visible eye."},
+    {"pair":"horizontal-2","A":"screen-right","B":"screen-left","reason":"A has a right-facing nose/cheek contour and a compressed far eye; B places the nose and chin on a left-facing contour beneath the visible eye."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A presents a right-facing profile with nose beyond the eye; B has a nose and exposed cheek projecting left beneath the visible eye."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A has a narrow right-facing face with the nose on its right contour; B opens its cheek toward the left and places its nose on the left facial contour."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A bows slightly but its exposed cheek and nose point left beneath the bangs; B groups its visible eye, nose and chin at the right edge of the head."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A lowers its chin with a left-displaced nose and exposed left-facing cheek; B bows its head with the eye and nose concentrated on the right-facing contour."},
+    {"pair":"horizontal-7","A":"ambiguous","B":"screen-right","reason":"A is strongly bowed with both eyes visible and the nose/chin nearly central, making lateral direction unclear at native size; B has a more clearly right-facing cheek and nose beyond the eye."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A bows its forehead and eye line with the chin tucked into the collar; B lifts its chin, exposing neck and an upward-facing nose/cheek plane."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A raises the chin and points the nose/face slightly upward; B lowers the eye beneath the bangs and brings the chin down toward the shoulder/collar."},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A has a lowered eye line, downward nose and tucked chin; B exposes neck under a lifted jaw and has an upward-sloping face/nose profile."},
+    {"pair":"vertical-4","A":"up","B":"ambiguous","reason":"A has a raised chin and a slightly upward-sloping eye/nose profile. B is mainly side-facing with a near-level nose silhouette, making the small vertical tilt unclear at native size."},
+    {"pair":"vertical-5","A":"up","B":"down","reason":"A lifts its left-facing nose and chin with neck visible below the jaw; B bows its forehead and eyes with the chin close to the collar."},
+    {"pair":"vertical-6","A":"down","B":"up","reason":"A lowers the eyes under its bangs and tucks the chin toward the neck; B tips its nose, cheek and chin upward-left, exposing more neck below the jaw."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A lowers its eye line and chin beneath the cheek; B lifts the jaw and has an upward-left nose/cheek plane with a more exposed neck."}
+  ]
+}

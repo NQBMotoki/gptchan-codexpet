@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "failed",
+      "frames": [
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\00.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\01.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\02.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\03.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\04.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\05.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\06.png",
+        "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\qa\\rows\\failed\\frames\\failed\\07.png"
+      ],
+      "method": "components"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "review_type": "parent and independent unlabeled visual review",
+  "artifact": "references/look-cardinals-approved.png",
+  "body_side_lock": "frontal body; chest hand screen-left, dress slit screen-left, tail screen-right in all four poses",
+  "directions": [
+    {"label":"000","expected":"up","observed":"up","verdict":"pass","evidence":"Head tips back, chin rises and eyes look up; face remains readable."},
+    {"label":"090","expected":"right","observed":"screen-right","verdict":"pass","evidence":"Nose tip and chin project to the right of head center; eyes follow right."},
+    {"label":"180","expected":"down","observed":"down","verdict":"pass","evidence":"Head pitches forward and chin approaches chest; gaze lowers. Eyes are small but down direction remains readable at native size."},
+    {"label":"270","expected":"left","observed":"screen-left","verdict":"pass","evidence":"Nose and chin project left of head center; eyes follow left while torso, hands, slit and tail keep their original sides."}
+  ],
+  "independent_review": "Reviewer inspected the unlabeled four-pose strip without reading prompts or answer files and returned up, screen-right, down, screen-left; no ambiguous cardinal."
+}

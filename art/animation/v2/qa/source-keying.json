@@ -1,0 +1,84 @@
+{
+  "operation": "background removal only, original source pixels",
+  "rule": "alpha > 0 and G > R + 30 and G > B + 30",
+  "design_assumption": "Accepted character has no green materials",
+  "strips": [
+    {
+      "state": "idle",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\idle.png",
+      "source_sha256": "e98e957c926084709651370c865dfd02f53caa0bdcee735711fe517e44e14cbe",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\idle.png",
+      "keyed_pixels": 714272
+    },
+    {
+      "state": "running-right",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\running-right.png",
+      "source_sha256": "9b59b2514a5d61fb9e69b4f6c0ef6ef291fa2a0d6cbce7d8a9f58d080923c443",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\running-right.png",
+      "keyed_pixels": 1252048
+    },
+    {
+      "state": "running-left",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\running-left.png",
+      "source_sha256": "13d7feb2526237643305d30687bd2f5c307ac113bd1025511a5b6e299971c3ff",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\running-left.png",
+      "keyed_pixels": 1229025
+    },
+    {
+      "state": "waving",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\waving.png",
+      "source_sha256": "87aaa3970cd55fda9014e714c1fb1216268df20205f7e262f8324529b9c5a2e3",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\waving.png",
+      "keyed_pixels": 779271
+    },
+    {
+      "state": "jumping",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\jumping.png",
+      "source_sha256": "3adedcbba9270fd5380aa7789f6cfc5a4f91aa2cadeac2e2f9c6ab8f2a22fd54",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\jumping.png",
+      "keyed_pixels": 898869
+    },
+    {
+      "state": "failed",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\failed.png",
+      "source_sha256": "dbecdaa73564c612ea99c4769c67e0f97b3b58528b18959f7797d0e23543b38e",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\failed.png",
+      "keyed_pixels": 1148541
+    },
+    {
+      "state": "waiting",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\waiting.png",
+      "source_sha256": "0c9a2a1fb06a762b93e24c066bb486f16bf2ad286840af6ad6f712b9eb0a8129",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\waiting.png",
+      "keyed_pixels": 748415
+    },
+    {
+      "state": "running",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\running.png",
+      "source_sha256": "9db0709777e6cf6fc30d8f8139537caf7128a7ebbde9d773ffa8b20813a5e0b4",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\running.png",
+      "keyed_pixels": 868846
+    },
+    {
+      "state": "review",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\review.png",
+      "source_sha256": "7e8f9f96b95dfe4c2ba6f711be3bd308a43b4c68a8042896e64d65a9930769b6",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\review.png",
+      "keyed_pixels": 712160
+    },
+    {
+      "state": "look-row-9",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\look-row-9.png",
+      "source_sha256": "7e6845e2b73192aff380a287ae832142f93c49d38047139e51c0b490844985a3",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\look-row-9.png",
+      "keyed_pixels": 890270
+    },
+    {
+      "state": "look-row-10",
+      "source": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded\\look-row-10.png",
+      "source_sha256": "074a80b233eca002461bfeb761f59f6a6cc22a8d520e05b24031c5be032e1788",
+      "output": "E:\\codex-playground\\gptchan-codexpet\\art\\animation\\v2\\decoded-keyed\\look-row-10.png",
+      "keyed_pixels": 851958
+    }
+  ]
+}

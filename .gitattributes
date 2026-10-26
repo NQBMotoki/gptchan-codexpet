@@ -1,4 +1,3 @@
-* text=auto eol=lf
-*.webp binary
-*.png binary
-*.gif binary
+# Outfit manifests are byte-hashed in outfits.json; preserve exact bytes on
+# every checkout instead of converting CRLF/LF between operating systems.
+**/pet.json -text

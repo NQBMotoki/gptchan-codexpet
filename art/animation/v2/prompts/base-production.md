@@ -1,0 +1,10 @@
+Create one clean full-body reference sprite for ChatGPT pet GPT酱.
+
+Pet identity: User-approved silver-white long hair, lavender eyes, curved white dragon horns, pointed ears, white wings with lavender membranes, scaled long tail, high-collar white lavender draped dress with detached ruffled sleeves, asymmetric slit and long train, silver chains and knot rosettes; graceful 4.5-head proportions. Composed, capable, alert, lightly playful; preserve approved poses and no new props or quiet/expressive variants..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `auto`: Infer the most appropriate pet-safe style from the user request and reference images, then keep that exact style consistent across every row. User style notes: Approved polished anime sprite with crisp restrained linework, soft cool shading, simplified readable details at 192x208; no noisy ornament drift..
+
+
+Place a single centered pose on a perfectly flat pure green #00FF00 chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #00FF00 and close colors out of the pet, props, highlights, and effects.
+
+
+IMPORTANT: reference contains TWO views of ONE character. Render EXACTLY ONE figure using the LEFT approved idle pose, never two figures or a detail inset. Preserve approved face and head/body ratio; do not exaggerate chibi proportions. Same silver decorations, rosette placement and draped dress. Upright relaxed pose, hand near chest and other arm relaxed slightly outward, mild confident smile. Entire character fits with 10% green margin on all sides. OPAQUE exact #00FF00 background, not transparent, no white, grey gradient or green reflections on the character. This is a production canonical sprite reference.

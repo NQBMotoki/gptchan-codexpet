@@ -1,0 +1,119 @@
+{
+  "review": "Parent labeled visual inspection, informed by isolated three-reviewer blind majority; native cells and zoom",
+  "atlas": "final/spritesheet.webp",
+  "sha256": "87e703010439e620479566b674a1bafa84542fd6f92387faf791600709d08111",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Chin lifts above neck, nose tilts upward, eyes look above frontal eye line."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Head lifts, chin opens upward; nose and eye aim slightly screen-right."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Rightward nose projection combines with raised chin and upward violet eye line."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Profile projects screen-right; face and nose remain slightly raised above the level-right anchor."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "screen-right",
+      "verdict": "pass",
+      "evidence": "Nose tip, chin and visible eye project toward screen-right; body stays frontal."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "right with a weak downward component",
+      "verdict": "warning",
+      "evidence": "Rightward profile is clear. Chin/eye line lowers slightly from 090 and continues into bowed 135, but two of three blind reviewers found vertical direction ambiguous at native size. Accepted as a near-horizontal intermediate, not a cardinal; no wrong-quadrant/backtracking evidence."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Face projects right under lowered bangs; chin approaches chest and gaze drops."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Strong downward pitch, tucked chin and visible crown; face still emerges on screen-right."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Crown faces forward, bangs cover upper eyes and chin tucks toward chest, without lateral nose projection."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Bowed crown and low chin show down; small leftward nose/chin displacement provides the near-vertical horizontal cue. One blind reviewer found horizontal ambiguous, majority identified screen-left."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Nose and cheek emerge screen-left beneath tilted bangs; chin and eyes point toward lower-left."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Clear leftward profile with nose and chin lower than level-left anchor."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "screen-left",
+      "verdict": "pass",
+      "evidence": "Nose, chin and visible eye project unmistakably toward screen-left; chest hand/slit/tail preserve original body sides."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Leftward nose profile and gently raised chin expose more neck; upper eye line turns upward."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Nose points upper-left and chin lifts, with more underside of jaw visible than at 292.5."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Near-up head tilt with a leftward nose/eye component, continuing toward up anchor rather than crossing the loop."
+    }
+  ]
+}
