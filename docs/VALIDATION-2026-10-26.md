@@ -1,5 +1,8 @@
 # 本轮验证与交付记录
 
+**历史记录：**本页对应 2026-10-26 的 1.1.0-dev 验证；当前版本见
+[兼容性记录](COMPATIBILITY.md) 和 [1.2.0-dev 动画审看](ANIMATION-REVIEW-1.2.0-dev.md)。
+
 基线提交：1f693d5cf4361f7cc931649f71f2a764d83d15e9。工作区新增 v1.1.0-dev，尚未发布。Windows 上使用 Python 3.12.14、Pillow 12.3.0；requirements.txt 的 CI 构建依赖仍锁定 Pillow 12.0.0，本轮本地测试没有声称使用该精确版本。
 
 ## 工程验证

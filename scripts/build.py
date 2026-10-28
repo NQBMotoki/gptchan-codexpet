@@ -84,7 +84,7 @@ def package():
         files[f'{prefix}/release-info.json'] = (json.dumps(metadata, ensure_ascii=False, indent=2) + '\n').encode('utf-8')
     files['outfits.json'] = (json.dumps(info, ensure_ascii=False, indent=2) + '\n').encode('utf-8')
     files['preview.html'] = html(info).encode('utf-8')
-    for name in ('VERSION', 'README.md', 'INSTALL.md', 'NOTICE.md', 'requirements.txt'):
+    for name in ('VERSION', 'README.md', 'INSTALL.md', 'NOTICE.md', 'CHANGELOG.md', 'requirements.txt'):
         # Keep source-only gallery and concept links out of the distributable guide.
         files[name] = (ROOT / ('INSTALL.md' if name == 'README.md' else name)).read_bytes()
     for folder in ('scripts', 'docs'):

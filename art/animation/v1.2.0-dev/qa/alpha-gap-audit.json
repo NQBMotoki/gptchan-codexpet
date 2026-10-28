@@ -1,0 +1,459 @@
+{
+  "atlas_sha256": "1f1047c6999b6f05c80a7846f0b9143c835e704dbaed956d66e40299bbd9f330",
+  "method": "4-neighbor flood fill from cell boundary, alpha <=16; counts on rows flagged by continuity checker",
+  "finding": "zero enclosed transparent pixels in flagged rows; these rows contain background connected to the outside",
+  "directions": [
+    {
+      "direction": "000",
+      "rows": [
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 115,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "022.5",
+      "rows": [
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 115,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 196,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "045",
+      "rows": [
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 115,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 196,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "067.5",
+      "rows": [
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 115,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 196,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "090",
+      "rows": [
+        {
+          "y": 110,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 111,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "112.5",
+      "rows": [
+        {
+          "y": 111,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 196,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "135",
+      "rows": [
+        {
+          "y": 110,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 111,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "157.5",
+      "rows": [
+        {
+          "y": 111,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "180",
+      "rows": [
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 115,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 196,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "202.5",
+      "rows": [
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 115,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 196,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "225",
+      "rows": [
+        {
+          "y": 111,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "247.5",
+      "rows": [
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 115,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "270",
+      "rows": [
+        {
+          "y": 111,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "292.5",
+      "rows": [
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 115,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "315",
+      "rows": [
+        {
+          "y": 111,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    },
+    {
+      "direction": "337.5",
+      "rows": [
+        {
+          "y": 111,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 112,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 113,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 114,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 194,
+          "enclosed_transparent_pixels_across_row": 0
+        },
+        {
+          "y": 195,
+          "enclosed_transparent_pixels_across_row": 0
+        }
+      ]
+    }
+  ]
+}

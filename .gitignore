@@ -20,3 +20,7 @@ dist/
 /art/animation/v2/previews/final/video-frames/
 /art/animation/v2/qa/key96-review/
 /art/animation/v2/qa/green-inspection*.png
+# Keep exploratory intermediates locally; selected sources, registered frames,
+# previews and QA for the development version live in v1.2.0-dev/.
+/art/animation/compact-20261027/
+/art/animation/claude-style-20261027/
