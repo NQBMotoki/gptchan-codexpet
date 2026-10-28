@@ -20,7 +20,7 @@ class InstallTests(unittest.TestCase):
         self.root = self.base / "source package"
         for directory in ("scripts", "output/gpt-chan", "docs"):
             shutil.copytree(ROOT / directory, self.root / directory, ignore=shutil.ignore_patterns("__pycache__"))
-        for name in ("outfits.json", "VERSION", "NOTICE.md", "README.md", "INSTALL.md", "requirements.txt"):
+        for name in ("outfits.json", "VERSION", "NOTICE.md", "README.md", "INSTALL.md", "CHANGELOG.md", "requirements.txt"):
             shutil.copy2(ROOT / name, self.root / name)
         self.home = self.base / "codex home"
         self.target = self.home / "pets/gpt-chan"
@@ -184,6 +184,7 @@ class InstallTests(unittest.TestCase):
         self.cli("install", "--codex-home", str(self.home), root=release)
         self.assertTrue(petctl.read_json(self.target / "release-info.json")["version"])
         self.assertTrue((release / "scripts/install.ps1").is_file())
+        self.assertTrue((release / "CHANGELOG.md").is_file())
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

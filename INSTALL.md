@@ -1,6 +1,6 @@
 # 安装 / Installation
 
-脚本安装需要 Python 3.10+，只用标准库，无需 Pillow、API Key 或网络访问。Python 是这一版统一跨平台校验、恢复和换装逻辑的新增依赖。没有 Python 时可按下方手动安装。
+脚本安装需要 Python 3.10+，只用标准库，无需 Pillow、API Key 或网络访问。没有 Python 时可按下方手动安装。
 
 Windows：`powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\install.ps1`
 

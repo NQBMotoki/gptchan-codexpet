@@ -1,0 +1,53 @@
+{
+  "atlas": "output/gpt-chan/spritesheet.webp",
+  "sha256": "1f1047c6999b6f05c80a7846f0b9143c835e704dbaed956d66e40299bbd9f330",
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6
+    }
+  ],
+  "mp4": false,
+  "video_codec": null
+}
