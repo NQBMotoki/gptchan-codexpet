@@ -1,5 +1,7 @@
 # GPT酱 1.2.0-dev 素材生产记录
 
+> 历史记录：本目录对应 2026-10-28 的图集。2026-11-02 的工作光效与跳跃扇翼素材见 [后续生产记录](../v1.2.0-dev-20261102/PRODUCTION.md)。
+
 使用者选定 [03-compact-revision.png](../../samples/claude-style-study-20261027/03-compact-revision.png) 为角色外貌基准，并认可 [轻抚魔法阵的动作方向](references/approved-work-stroke.png)。参考图中的暖色服饰没有沿用。使用者指出一次 337.5° 修复稿的脸和眼睛过于圆润，该稿没有进入本图集。
 
 ## 保存的材料
@@ -28,10 +30,10 @@ python "$GPTCHAN_PET_SCRIPTS/assemble_extended_atlas.py" \
 python "$GPTCHAN_PET_SCRIPTS/despill_chroma_edges.py" "$GPTCHAN_TMP/assembled.png" \
   --output "$GPTCHAN_TMP/clean.png" --webp-output "$GPTCHAN_TMP/spritesheet.webp" \
   --chroma-key '#00FF00'
-shasum -a 256 "$GPTCHAN_TMP/spritesheet.webp" output/gpt-chan/spritesheet.webp
+shasum -a 256 "$GPTCHAN_TMP/spritesheet.webp"
 ```
 
-在上述本地环境中重组后的哈希与安装图集一致：`1f1047c6999b6f05c80a7846f0b9143c835e704dbaed956d66e40299bbd9f330`。不同 Pillow／WebP 编码器版本不保证编码字节一致；若哈希不同，应同时检查解码像素与透明度。
+2026-10-28 在上述本地环境中重组后的哈希与当时的图集一致：`1f1047c6999b6f05c80a7846f0b9143c835e704dbaed956d66e40299bbd9f330`。仓库 `output/` 已更新至后续迭代。不同 Pillow／WebP 编码器版本不保证编码字节一致；若哈希不同，应同时检查解码像素与透明度。
 
 ## 验收边界
 

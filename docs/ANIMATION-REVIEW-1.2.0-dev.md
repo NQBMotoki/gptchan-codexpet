@@ -1,8 +1,10 @@
 # GPT酱 1.2.0-dev 动画审看
 
+> 历史记录：以下内容对应 2026-10-28 的图集；2026-11-02 开发版的工作光效与跳跃扇翼见 [当前动画审看](ANIMATION-REVIEW-20261102.md)。
+
 本版本以使用者选定的 [根本形象](../art/samples/claude-style-study-20261027/03-compact-revision.png) 为依据，保留白龙娘的角色特征，并参考 Claude小姐的紧凑体型、待机节奏与像素感。工作时的手势来自此前认可的 [魔法阵动作参考](../art/animation/v1.2.0-dev/references/approved-work-stroke.png)；该旧图仅用于动作，不用于服饰配色。
 
-[全部动作](../art/animation/v1.2.0-dev/previews/all-states.gif) · [十六向注视](../art/animation/v1.2.0-dev/previews/look-loop.gif) · [待机→跳跃→待机](../art/animation/v1.2.0-dev/previews/idle-jump-idle.gif) · [逐帧离线预览](../preview.html)
+[全部动作](../art/animation/v1.2.0-dev/previews/all-states.gif) · [十六向注视](../art/animation/v1.2.0-dev/previews/look-loop.gif) · [待机→跳跃→待机](../art/animation/v1.2.0-dev/previews/idle-jump-idle.gif)。[逐帧离线预览](../preview.html)显示仓库当前图集。
 
 预览从本版本编码后的图集生成，GIF 的时间仅为审看设置。选用的源图、配准帧和制作说明保存在 [生产记录](../art/animation/v1.2.0-dev/PRODUCTION.md)。
 

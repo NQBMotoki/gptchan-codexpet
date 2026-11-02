@@ -1,6 +1,6 @@
 # GPT酱 · gpt-chan Codex Pet
 
-GPT酱是一位白发紫瞳的白龙娘桌宠，穿着白紫礼服，带有龙角、龙翼与鳞尾。她有九种动作和十六向注视：待机时安静地看向你，工作时轻抚悬浮的白色魔法阵。
+GPT酱是一位白发紫瞳的白龙娘桌宠，穿着白紫礼服，带有龙角、龙翼与鳞尾。她有九种动作和十六向注视：待机时安静地看向你，工作时轻抚发出光效的悬浮魔法阵，跳跃时轻扇龙翼。
 
 这是基于 [ZipZipPipe（B站 UID 4168597）](https://space.bilibili.com/4168597) 角色形象制作的非官方 AI 辅助二创，来源与权利说明见 [NOTICE.md](NOTICE.md)。
 
@@ -39,17 +39,17 @@ bash scripts/install.sh
 | `idle` | 待机与眨眼 | 6 |
 | `running-right` / `running-left` | 向右／向左移动 | 各 8 |
 | `waving` | 挥手反馈 | 4 |
-| `jumping` | 跳跃／完成 | 5 |
+| `jumping` | 跳跃／完成，伴随扇翼 | 5 |
 | `failed` | 失败反馈 | 8 |
 | `waiting` | 等待确认 | 6 |
 | `running` | 工作中的魔法阵动作 | 6 |
 | `review` | 检查与思考 | 6 |
 
-[全部动作预览](art/animation/v1.2.0-dev/previews/all-states.gif) · [十六向注视预览](art/animation/v1.2.0-dev/previews/look-loop.gif) · [逐帧离线预览](preview.html)
+[全部动作预览](art/animation/v1.2.0-dev-20261102/previews/all-states.gif) · [十六向注视预览](art/animation/v1.2.0-dev-20261102/previews/look-loop.gif) · [逐帧离线预览](preview.html)
 
 双击下载后的 `preview.html`，可以切换动作、逐帧查看、调整深浅背景和显示尺寸。图集为透明无损 WebP，尺寸 **1536 × 2288**，按 **8 × 11** 格排列，每格 **192 × 208**。第 9–10 行存放 16 个视线方向，未使用的格子透明。
 
-角色基准与动作规范见 [形象基线](docs/ART-DIRECTION.md)，素材和检查结果见 [动画审看](docs/ANIMATION-REVIEW-1.2.0-dev.md)。半尺寸浅色背景下魔法阵较淡，视线有两处相邻帧差异警告；实际交互和桌面显示仍需在宿主中验收。
+角色基准与动作规范见 [形象基线](docs/ART-DIRECTION.md)，素材和检查结果见 [动画审看](docs/ANIMATION-REVIEW-20261102.md)。半尺寸浅色背景下魔法阵光效仍较细，视线有两处沿用的相邻帧差异警告；实际交互和桌面显示仍需在宿主中验收。
 
 ## 维护与验证
 
