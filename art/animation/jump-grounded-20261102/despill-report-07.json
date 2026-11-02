@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "input": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/jump-grounded-20261102/row-before-despill-07.png",
+  "output": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/jump-grounded-20261102/row-despilled-07.png",
+  "chroma_key": "#00FF00",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 17521,
+  "decontaminated_pixels": 17520,
+  "spill_suppressed_pixels": 17521,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c0": 3696,
+    "r0c4": 3665,
+    "r0c3": 3556,
+    "r0c1": 3397,
+    "r0c2": 3207
+  },
+  "alpha_preserved": true
+}

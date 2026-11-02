@@ -56,9 +56,12 @@ def previews(sheet):
             background = Image.new("RGBA", cell.size, "#f4f0fa")
             background.alpha_composite(cell)
             gif_frames.append(background.convert("RGB"))
+        # The grounded wingbeat preview is 1.2 s per five-frame cycle.
+        # The host controls real animation timing independently.
+        duration = 240 if name == "jumping" else 150
         gif_frames[0].save(destination / "animations" / f"{name}.gif",
                            save_all=True, append_images=gif_frames[1:],
-                           duration=150, loop=0, disposal=2)
+                           duration=duration, loop=0, disposal=2)
 
 
 def package():
@@ -91,10 +94,10 @@ def package():
         for path in sorted((ROOT / folder).glob('*.py' if folder == 'scripts' else '*.md')):
             content = path.read_bytes()
             if folder == 'docs':
-                # Artwork/production logs stay in the source checkout. Do not
-                # leave clickable links to absent art/ files in the install ZIP.
+                # Artwork and README previews stay in the source checkout. Do not
+                # leave clickable links to files absent from the install ZIP.
                 document = content.decode('utf-8')
-                document = re.sub(r'!?\[([^\]]+)\]\(((?:\.\./)+art/[^)]+)\)',
+                document = re.sub(r'!?\[([^\]]+)\]\(((?:\.\./)+(?:art|assets)/[^)]+)\)',
                                   r'\1（制作素材位于源码仓库：\2）', document)
                 content = document.encode('utf-8')
             files[path.relative_to(ROOT).as_posix()] = content

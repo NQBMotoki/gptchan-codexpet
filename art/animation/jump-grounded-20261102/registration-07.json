@@ -1,0 +1,125 @@
+{
+  "method": "one common scale, minimal horizontal head registration, retain vertical body motion",
+  "frames": [
+    {
+      "frame": 0,
+      "resize": [
+        196,
+        212
+      ],
+      "offset": [
+        -2,
+        1
+      ],
+      "alpha_bbox_threshold16": [
+        12,
+        16,
+        180,
+        202
+      ],
+      "alpha_bbox": [
+        9,
+        14,
+        182,
+        204
+      ],
+      "edge_pixels": 0
+    },
+    {
+      "frame": 1,
+      "resize": [
+        196,
+        212
+      ],
+      "offset": [
+        -3,
+        1
+      ],
+      "alpha_bbox_threshold16": [
+        7,
+        16,
+        183,
+        202
+      ],
+      "alpha_bbox": [
+        4,
+        13,
+        185,
+        204
+      ],
+      "edge_pixels": 0
+    },
+    {
+      "frame": 2,
+      "resize": [
+        196,
+        212
+      ],
+      "offset": [
+        -3,
+        1
+      ],
+      "alpha_bbox_threshold16": [
+        3,
+        12,
+        187,
+        202
+      ],
+      "alpha_bbox": [
+        1,
+        10,
+        189,
+        204
+      ],
+      "edge_pixels": 0
+    },
+    {
+      "frame": 3,
+      "resize": [
+        196,
+        212
+      ],
+      "offset": [
+        -3,
+        1
+      ],
+      "alpha_bbox_threshold16": [
+        6,
+        15,
+        184,
+        202
+      ],
+      "alpha_bbox": [
+        4,
+        12,
+        186,
+        204
+      ],
+      "edge_pixels": 0
+    },
+    {
+      "frame": 4,
+      "resize": [
+        196,
+        212
+      ],
+      "offset": [
+        -1,
+        1
+      ],
+      "alpha_bbox_threshold16": [
+        12,
+        15,
+        182,
+        202
+      ],
+      "alpha_bbox": [
+        10,
+        13,
+        184,
+        204
+      ],
+      "edge_pixels": 0
+    }
+  ]
+}
