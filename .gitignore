@@ -24,3 +24,6 @@ dist/
 # previews and QA for the development version live in v1.2.0-dev/.
 /art/animation/compact-20261027/
 /art/animation/claude-style-20261027/
+# Rebuildable review frames; the encoded atlas and reports are retained.
+/art/animation/v1.2.0-dev4-color-20261103/qa/encoded-frames/
+/art/animation/v1.2.0-dev4-color-20261103/previews/all-states/video-frames/

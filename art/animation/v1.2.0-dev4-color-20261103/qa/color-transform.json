@@ -1,0 +1,88 @@
+{
+  "base_file_sha256": "6756813298bf70fd7cf09e97b7f62e1e8bb88a34ced95c72b7cd0161e03ffea4",
+  "output_file_sha256": "74cd3a5c85ba42fb64da74fe2b44cd5b84abb2ad0158409385f01e43516f4cbd",
+  "base_rgba_sha256": "afaaeb0cdce4e469b54f64cb07823f22ebaeff50823b2b6e19bb27445fd91780",
+  "output_rgba_sha256": "8288bf30e8c95bcee3302bea9b0282c812cca7cb4a45e0af2e3f12d16b5d4c16",
+  "method": "same smooth per-color HSV transform on each original frame",
+  "alpha_identical": true,
+  "other_ten_rows_rgba_identical": true,
+  "jump_unused_cells_rgba_identical": true,
+  "selected_pixels": "original alpha>=250, B>G+15, R>G+8, 50<=G<=205, B<245",
+  "frames": [
+    {
+      "selected_opaque_pixels": 7744,
+      "before": {
+        "hue_degrees": 288.679,
+        "saturation": 0.2928,
+        "red_minus_blue": -10.0
+      },
+      "after": {
+        "hue_degrees": 270.0,
+        "saturation": 0.2426,
+        "red_minus_blue": -22.0
+      },
+      "frame": 1,
+      "changed_rgb_pixels": 16416
+    },
+    {
+      "selected_opaque_pixels": 7660,
+      "before": {
+        "hue_degrees": 288.182,
+        "saturation": 0.2924,
+        "red_minus_blue": -10.0
+      },
+      "after": {
+        "hue_degrees": 269.318,
+        "saturation": 0.2429,
+        "red_minus_blue": -22.0
+      },
+      "frame": 2,
+      "changed_rgb_pixels": 16102
+    },
+    {
+      "selected_opaque_pixels": 7751,
+      "before": {
+        "hue_degrees": 288.571,
+        "saturation": 0.2897,
+        "red_minus_blue": -10
+      },
+      "after": {
+        "hue_degrees": 269.508,
+        "saturation": 0.2404,
+        "red_minus_blue": -22
+      },
+      "frame": 3,
+      "changed_rgb_pixels": 15786
+    },
+    {
+      "selected_opaque_pixels": 8041,
+      "before": {
+        "hue_degrees": 288.0,
+        "saturation": 0.2906,
+        "red_minus_blue": -11
+      },
+      "after": {
+        "hue_degrees": 269.189,
+        "saturation": 0.2415,
+        "red_minus_blue": -23
+      },
+      "frame": 4,
+      "changed_rgb_pixels": 16774
+    },
+    {
+      "selected_opaque_pixels": 8007,
+      "before": {
+        "hue_degrees": 288.169,
+        "saturation": 0.2915,
+        "red_minus_blue": -10
+      },
+      "after": {
+        "hue_degrees": 269.333,
+        "saturation": 0.2417,
+        "red_minus_blue": -23
+      },
+      "frame": 5,
+      "changed_rgb_pixels": 16744
+    }
+  ]
+}

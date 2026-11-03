@@ -1,0 +1,235 @@
+{
+  "limitations": "Crops are approximate, distinct poses; material percentages differ. Before/after uses the identical original pixel selection.",
+  "samples": [
+    {
+      "material": "hair",
+      "sample_type": "purple",
+      "idle_box": [
+        55,
+        70,
+        75,
+        115
+      ],
+      "jump_box": [
+        55,
+        70,
+        75,
+        115
+      ],
+      "idle": {
+        "pixels": 628,
+        "median_rgb": [
+          198.0,
+          174.0,
+          217.5
+        ],
+        "median_hue_degrees": 271.3,
+        "median_saturation": 0.1872
+      },
+      "before": {
+        "pixels": 711,
+        "median_rgb": [
+          201,
+          151,
+          215
+        ],
+        "median_hue_degrees": 283.7,
+        "median_saturation": 0.3041
+      },
+      "after_same_pixels": {
+        "pixels": 711,
+        "median_rgb": [
+          189,
+          162,
+          219
+        ],
+        "median_hue_degrees": 266.79,
+        "median_saturation": 0.2523
+      }
+    },
+    {
+      "material": "left wing",
+      "sample_type": "purple",
+      "idle_box": [
+        30,
+        75,
+        55,
+        105
+      ],
+      "jump_box": [
+        25,
+        35,
+        50,
+        65
+      ],
+      "idle": {
+        "pixels": 677,
+        "median_rgb": [
+          215,
+          194,
+          230
+        ],
+        "median_hue_degrees": 274.55,
+        "median_saturation": 0.1506
+      },
+      "before": {
+        "pixels": 587,
+        "median_rgb": [
+          235,
+          209,
+          237
+        ],
+        "median_hue_degrees": 300.0,
+        "median_saturation": 0.1218
+      },
+      "after_same_pixels": {
+        "pixels": 587,
+        "median_rgb": [
+          231,
+          214,
+          238
+        ],
+        "median_hue_degrees": 284.0,
+        "median_saturation": 0.1008
+      }
+    },
+    {
+      "material": "white dress",
+      "sample_type": "white",
+      "idle_box": [
+        78,
+        96,
+        110,
+        127
+      ],
+      "jump_box": [
+        78,
+        90,
+        110,
+        121
+      ],
+      "idle": {
+        "pixels": 527,
+        "median_rgb": [
+          247,
+          239,
+          246
+        ],
+        "median_hue_degrees": 302.86,
+        "median_saturation": 0.0283
+      },
+      "before": {
+        "pixels": 505,
+        "median_rgb": [
+          252,
+          245,
+          246
+        ],
+        "median_hue_degrees": 310.0,
+        "median_saturation": 0.0278
+      },
+      "after_same_pixels": {
+        "pixels": 505,
+        "median_rgb": [
+          252,
+          245,
+          247
+        ],
+        "median_hue_degrees": 295.86,
+        "median_saturation": 0.0278
+      }
+    },
+    {
+      "material": "face skin",
+      "sample_type": "skin",
+      "idle_box": [
+        80,
+        56,
+        101,
+        68
+      ],
+      "jump_box": [
+        80,
+        55,
+        101,
+        67
+      ],
+      "idle": {
+        "pixels": 115,
+        "median_rgb": [
+          253,
+          232,
+          218
+        ],
+        "median_hue_degrees": 21.95,
+        "median_saturation": 0.1349
+      },
+      "before": {
+        "pixels": 142,
+        "median_rgb": [
+          254.0,
+          227.5,
+          212.0
+        ],
+        "median_hue_degrees": 23.74,
+        "median_saturation": 0.1654
+      },
+      "after_same_pixels": {
+        "pixels": 142,
+        "median_rgb": [
+          254.0,
+          231.5,
+          217.0
+        ],
+        "median_hue_degrees": 24.79,
+        "median_saturation": 0.1457
+      }
+    },
+    {
+      "material": "rose ornament",
+      "sample_type": "purple",
+      "idle_box": [
+        107,
+        34,
+        120,
+        50
+      ],
+      "jump_box": [
+        107,
+        34,
+        120,
+        50
+      ],
+      "idle": {
+        "pixels": 149,
+        "median_rgb": [
+          206,
+          184,
+          207
+        ],
+        "median_hue_degrees": 300.0,
+        "median_saturation": 0.1105
+      },
+      "before": {
+        "pixels": 154,
+        "median_rgb": [
+          218.5,
+          179.5,
+          202.0
+        ],
+        "median_hue_degrees": 324.6,
+        "median_saturation": 0.1844
+      },
+      "after_same_pixels": {
+        "pixels": 154,
+        "median_rgb": [
+          217.0,
+          186.5,
+          217.0
+        ],
+        "median_hue_degrees": 296.12,
+        "median_saturation": 0.1537
+      }
+    }
+  ]
+}

@@ -47,7 +47,7 @@ bash scripts/install.sh
 | `running` | 工作中的魔法阵动作 | 6 |
 | `review` | 检查与思考 | 6 |
 
-[全部动作预览](art/animation/v1.2.0-dev-20261102/previews/all-states.gif) · [十六向注视预览](art/animation/v1.2.0-dev-20261102/previews/look-loop.gif) · [逐帧离线预览](preview.html)
+[全部动作预览](art/animation/v1.2.0-dev4-color-20261103/previews/all-states/all-states.gif) · [十六向注视预览](art/animation/v1.2.0-dev4-color-20261103/previews/all-states/look-loop.gif) · [逐帧离线预览](preview.html)
 
 双击下载后的 `preview.html`，可以切换动作、逐帧查看、调整深浅背景和显示尺寸。图集为透明无损 WebP，尺寸 **1536 × 2288**，按 **8 × 11** 格排列，每格 **192 × 208**。第 9–10 行存放 16 个视线方向，未使用的格子透明。
 
