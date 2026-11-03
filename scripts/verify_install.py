@@ -7,6 +7,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import zipfile
 from unittest.mock import patch
 
 import petctl
@@ -171,14 +172,21 @@ class InstallTests(unittest.TestCase):
         self.assertTrue(self.target.is_dir())
 
     def test_release_archive_install_and_repeatable_build(self):
-        command = [sys.executable, str(self.root / "scripts/build.py"), "--no-previews"]
-        for _ in range(2):
+        commands = [[sys.executable, str(self.root / "scripts/build.py")],
+                    [sys.executable, str(self.root / "scripts/build.py"), "--no-previews"]]
+        for index, command in enumerate(commands):
             result = subprocess.run(command, capture_output=True, text=True)
             self.assertEqual(result.returncode, 0, result.stderr)
             digest = petctl.sha256(self.root / "dist/gptchan-codexpet.zip")
-            if _ == 0:
+            if index == 0:
                 first = digest
         self.assertEqual(first, digest)
+        self.assertFalse((self.root / "assets").exists())
+        with zipfile.ZipFile(self.root / "dist/gptchan-codexpet.zip") as bundle:
+            art = [name for name in bundle.namelist()
+                   if Path(name).suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".mp4"}]
+            self.assertEqual(art, ["gpt-chan/spritesheet.webp"])
+            self.assertEqual(bundle.read(art[0]), (self.root / "output/gpt-chan/spritesheet.webp").read_bytes())
         release = self.base / "extracted release"
         shutil.unpack_archive(self.root / "dist/gptchan-codexpet.zip", release)
         self.cli("install", "--codex-home", str(self.home), root=release)

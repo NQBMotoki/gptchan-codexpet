@@ -117,12 +117,14 @@ def package():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--no-previews', action='store_true', help='Keep existing documentation images unchanged')
+    preview_options = parser.add_mutually_exclusive_group()
+    preview_options.add_argument('--previews', action='store_true', help='Explicitly regenerate optional documentation images')
+    preview_options.add_argument('--no-previews', action='store_true', help='Do not generate documentation images (the default)')
     args = parser.parse_args()
     from petctl import catalog
     from preview import html
     (ROOT / 'preview.html').write_text(html(catalog(ROOT)), encoding='utf-8')
     sheet = validate()
-    if not args.no_previews:
+    if args.previews:
         previews(sheet)
     package()

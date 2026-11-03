@@ -6,13 +6,7 @@ GPT酱是一位白发紫瞳的白龙娘桌宠，穿着白紫礼服，带有龙�
 
 这是基于 [ZipZipPipe（B站 UID 4168597）](https://space.bilibili.com/4168597) 角色形象制作的非官方 AI 辅助二创，来源与权利说明见 [NOTICE.md](NOTICE.md)。
 
-<table><tr>
-<td align="center"><img src="assets/readme/animations/idle.gif" width="192" alt="GPT酱待机"><br>待机</td>
-<td align="center"><img src="assets/readme/animations/running.gif" width="192" alt="GPT酱工作中"><br>工作</td>
-<td align="center"><img src="assets/readme/animations/jumping.gif" width="192" alt="GPT酱跳跃"><br>跳跃</td>
-</tr></table>
-
-GIF 仅用于审看，播放速度和实际触发由宿主决定。
+[逐帧离线预览](preview.html)直接使用当前图集；可切换动作与视线、查看逐帧，并调整背景和显示尺寸。
 
 ## 获取与安装
 
@@ -47,7 +41,7 @@ bash scripts/install.sh
 | `running` | 工作中的魔法阵动作 | 6 |
 | `review` | 检查与思考 | 6 |
 
-[全部动作预览](art/animation/v1.2.0-dev4-color-20261103/previews/all-states/all-states.gif) · [十六向注视预览](art/animation/v1.2.0-dev4-color-20261103/previews/all-states/look-loop.gif) · [逐帧离线预览](preview.html)
+[打开逐帧离线预览](preview.html)
 
 双击下载后的 `preview.html`，可以切换动作、逐帧查看、调整深浅背景和显示尺寸。图集为透明无损 WebP，尺寸 **1536 × 2288**，按 **8 × 11** 格排列，每格 **192 × 208**。第 9–10 行存放 16 个视线方向，未使用的格子透明。
 
@@ -73,7 +67,7 @@ python scripts/build.py
 python scripts/verify_install.py
 ```
 
-构建验证图集并生成 `dist/gptchan-codexpet.zip` 和 `SHA256SUMS.txt`；使用 `--no-previews` 可保留现有 README 预览图。安装包包含手动安装目录、安装与维护脚本和更新日志。详细验证边界见 [兼容性记录](docs/COMPATIBILITY.md)，版本历史见 [CHANGELOG.md](CHANGELOG.md)。
+构建验证图集并生成 `dist/gptchan-codexpet.zip` 和 `SHA256SUMS.txt`，默认不生成额外美术预览文件。安装包包含手动安装目录、安装与维护脚本和更新日志。详细验证边界见 [兼容性记录](docs/COMPATIBILITY.md)，版本历史见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## English
 
