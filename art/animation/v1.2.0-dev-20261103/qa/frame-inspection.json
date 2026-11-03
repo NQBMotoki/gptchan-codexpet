@@ -1,0 +1,1001 @@
+{
+  "ok": true,
+  "frames_root": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "idle used extraction method encoded-atlas; component extraction is preferred",
+    "running-right used extraction method encoded-atlas; component extraction is preferred",
+    "running-left used extraction method encoded-atlas; component extraction is preferred",
+    "waving used extraction method encoded-atlas; component extraction is preferred",
+    "jumping used extraction method encoded-atlas; component extraction is preferred",
+    "failed used extraction method encoded-atlas; component extraction is preferred",
+    "waiting used extraction method encoded-atlas; component extraction is preferred",
+    "running used extraction method encoded-atlas; component extraction is preferred",
+    "review used extraction method encoded-atlas; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20986,
+          "bbox": [
+            6,
+            14,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20973,
+          "bbox": [
+            6,
+            14,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20963,
+          "bbox": [
+            6,
+            14,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20991,
+          "bbox": [
+            6,
+            14,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20990,
+          "bbox": [
+            6,
+            14,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20978,
+          "bbox": [
+            6,
+            14,
+            186,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17196,
+          "bbox": [
+            24,
+            11,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16112,
+          "bbox": [
+            28,
+            14,
+            164,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15292,
+          "bbox": [
+            28,
+            14,
+            164,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15396,
+          "bbox": [
+            31,
+            15,
+            161,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15145,
+          "bbox": [
+            32,
+            14,
+            160,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14743,
+          "bbox": [
+            29,
+            15,
+            163,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15689,
+          "bbox": [
+            28,
+            16,
+            164,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15021,
+          "bbox": [
+            25,
+            15,
+            167,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17293,
+          "bbox": [
+            27,
+            11,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17272,
+          "bbox": [
+            26,
+            13,
+            166,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16582,
+          "bbox": [
+            23,
+            13,
+            169,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16755,
+          "bbox": [
+            24,
+            12,
+            168,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16720,
+          "bbox": [
+            24,
+            14,
+            167,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16606,
+          "bbox": [
+            25,
+            13,
+            166,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17591,
+          "bbox": [
+            22,
+            12,
+            170,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16398,
+          "bbox": [
+            24,
+            14,
+            168,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20409,
+          "bbox": [
+            7,
+            13,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20394,
+          "bbox": [
+            7,
+            13,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20399,
+          "bbox": [
+            7,
+            13,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20338,
+          "bbox": [
+            7,
+            13,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22101,
+          "bbox": [
+            9,
+            14,
+            182,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21548,
+          "bbox": [
+            4,
+            13,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21568,
+          "bbox": [
+            1,
+            10,
+            189,
+            204
+          ],
+          "edge_pixels": 7,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22589,
+          "bbox": [
+            4,
+            12,
+            186,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22466,
+          "bbox": [
+            10,
+            13,
+            184,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18767,
+          "bbox": [
+            18,
+            13,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18230,
+          "bbox": [
+            18,
+            18,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17732,
+          "bbox": [
+            19,
+            20,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17145,
+          "bbox": [
+            20,
+            24,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18767,
+          "bbox": [
+            18,
+            9,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19174,
+          "bbox": [
+            18,
+            7,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19341,
+          "bbox": [
+            18,
+            6,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19364,
+          "bbox": [
+            18,
+            6,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20640,
+          "bbox": [
+            5,
+            14,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20604,
+          "bbox": [
+            5,
+            14,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20609,
+          "bbox": [
+            5,
+            14,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20731,
+          "bbox": [
+            5,
+            14,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20645,
+          "bbox": [
+            5,
+            14,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20739,
+          "bbox": [
+            5,
+            14,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20901,
+          "bbox": [
+            6,
+            12,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20938,
+          "bbox": [
+            6,
+            12,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20877,
+          "bbox": [
+            6,
+            12,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20920,
+          "bbox": [
+            6,
+            12,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20971,
+          "bbox": [
+            6,
+            12,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20934,
+          "bbox": [
+            6,
+            12,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "encoded-atlas",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method encoded-atlas; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20646,
+          "bbox": [
+            6,
+            13,
+            185,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20721,
+          "bbox": [
+            6,
+            12,
+            185,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20736,
+          "bbox": [
+            6,
+            12,
+            185,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20788,
+          "bbox": [
+            6,
+            12,
+            185,
+            205
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20761,
+          "bbox": [
+            6,
+            12,
+            185,
+            204
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/motoki/codex-playground/gptchan-codexpet/art/animation/v1.2.0-dev-20261103/qa/encoded-frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20808,
+          "bbox": [
+            6,
+            12,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "ambiguous"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "ambiguous"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "ambiguous",
+      "B": "down"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "ambiguous"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "ambiguous"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "ambiguous",
+      "B": "down"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "ambiguous",
+      "B": "down"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "ambiguous"
+    }
+  ]
+}
